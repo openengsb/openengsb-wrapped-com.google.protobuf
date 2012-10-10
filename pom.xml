@@ -23,16 +23,14 @@
   <parent>
     <groupId>org.openengsb.wrapped</groupId>
     <artifactId>openengsb-wrapped-parent</artifactId>
-    <version>7</version>
+    <version>8</version>
   </parent>
 
   <properties>
     <com.google.protobuf.version>2.4.1</com.google.protobuf.version>
     <bundle.symbolicName>com.google.protobuf</bundle.symbolicName>
-    <wrapped.groupId>com.google.protobuf</wrapped.groupId>
-    <wrapped.artifactId>protobuf-java</wrapped.artifactId>
-    <wrapped.version>${com.google.protobuf.version}</wrapped.version>
-    <wrapped.mvn.version>${com.google.protobuf.version}</wrapped.mvn.version>
+    <bundle.version>${com.google.protobuf.version}</bundle.version>
+    <package.version>${com.google.protobuf.version}</package.version>
     <bundle.namespace>com.google.protobuf</bundle.namespace>
   </properties>
 
